@@ -1,0 +1,7 @@
+@font-face {
+	font-family: 'Futura PT Book';
+	src: url(../../assets/fonts/FuturaPT-Book.woff2) format('woff2'),
+	url(../../assets/fonts/FuturaPT-Book.woff) format('woff');
+	font-weight: normal;
+	font-style: normal;
+}

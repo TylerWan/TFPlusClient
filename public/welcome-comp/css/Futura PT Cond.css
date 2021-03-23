@@ -1,0 +1,7 @@
+@font-face {
+	font-family: 'Futura PT Cond';
+	src: url(../../assets/fonts/FuturaPTCond-BoldObl.woff2) format('woff2'),
+	url(../../assets/fonts/FuturaPTCond-BoldObl.woff) format('woff');
+	font-weight: bold;
+	font-style: italic;
+}

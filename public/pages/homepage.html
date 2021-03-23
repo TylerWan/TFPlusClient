@@ -1,0 +1,96 @@
+<style>
+
+    #frontVid {
+        position: fixed;
+        top:-15vh;
+        left: 0;
+        min-width:100%;
+        min-height:140vh;
+        z-index: -2;
+    }
+    #mainDisp{
+        background: rgba(0,0,0,0.5);
+    }
+</style>
+
+<body>
+<video autoplay muted loop id="frontVid">
+    <source src="/old-homepage/videos/frontvid.mp4" type="video/mp4">
+</video>
+<header class="masthead text-center text-white" id="mainDisp">
+    <div class="masthead-content">
+        <div class="container">
+            <h1 class="masthead-heading mb-0" style="font-family: 'Futura Light';">Welcome to Competitive Team Fortress 2</h1>
+            <a class="btn btn-primary btn-xl rounded-pill mt-5" role="button" href="/start" style="font-family: 'Futura Md BT';background: #f0984d;font-size: 25px;">
+                GET STARTED
+            </a>
+        </div>
+    </div>
+</header>
+<div class="features-boxed" style="background: rgb(21,21,21);border-color: #232323;padding-top: 35px">
+    <div class="container">
+        <div class="row justify-content-center features" style="padding-top: 40px;">
+            <!--
+            <div class="col-sm-6 col-md-5 col-lg-4 item">
+                <div class="box" style="background: #232323;color: #eef4f7;"><i class="far fa-newspaper icon" style="color: #f0984d;"></i>
+                    <h3 class="name" style="font-family: 'Futura Md BT';">GUIDES<br></h3>
+                </div>
+            </div>
+            -->
+            <div class="col-sm-6 col-md-5 col-lg-4 item">
+                <div class="box" style="background: #232323;color: #eef4f7;"><i class="fas fa-gamepad icon" style="color: #f0984d;"></i>
+                    <div class="btn-group" role="group"></div>
+                    <div class="dropdown"><button class="btn btn-outline-success dropdown-toggle btn-lg" data-toggle="dropdown" aria-expanded="false" type="button">
+                        PICKUP GAMES
+                    </button>
+                        <div class="dropdown-menu text-center" style="padding:20px">
+                            <a class="dropdown-item disabled">North America</a>
+                            <a class="dropdown-item" href="/pug" target="_blank">RGL</a>
+                            <a class="dropdown-item" href="https://newbie.tf/" target="_blank">newbie.tf</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--
+            <div class="col-sm-6 col-md-5 col-lg-4 item">
+                <div class="box" style="background: #232323;color: #eef4f7;"><i class="fab fa-twitch icon" style="color: #f0984d;"></i>
+                    <h3 class="name" style="font-family: 'Futura Md BT';">STREAMS</h3>
+                </div>
+            </div>
+            -->
+            <div class="col-sm-6 col-md-5 col-lg-4 item">
+                <div class="box" style="background: #232323;color: #eef4f7;font-family: 'Futura Md BT';"><i class="far fa-comments icon" style="color: #f0984d;"></i>
+                    <div class="btn-group" role="group"></div>
+                    <div class="dropdown"><button class="btn btn-outline-info dropdown-toggle btn-lg" data-toggle="dropdown" aria-expanded="false" type="button">
+                        LEAGUE FORUMS
+                    </button>
+                        <div class="dropdown-menu text-center" style="padding:15px">
+                            <a class="dropdown-item disabled">North America</a>
+                            <a class="dropdown-item" href="https://forums.rgl.gg/" target="_blank">RGL</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item disabled">Europe</a>
+                            <a class="dropdown-item" href="https://etf2l.org/forum/" target="_blank">ETF2L</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item disabled">Asia/Oceania</a>
+                            <a class="dropdown-item" href="https://ozfortress.com/forums" target="_blank">OZFortress</a>
+                            <a class="dropdown-item" href="https://discord.rsl.tf/" target="_blank">Respawn League <i class="fab fa-discord"></i></a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item disabled">South America</a>
+                            <a class="dropdown-item" href="https://fbtf.tf/forums" target="_blank">FBTF</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item disabled">Other</a>
+                            <a class="dropdown-item" href="https://discord.gg/ugcleague" target="_blank">UGC <i class="fab fa-discord"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script src="/welcome-comp/js/jquery.min.js"></script>
+<script src="/welcome-comp/bootstrap/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.js"></script>
+<script src="/welcome-comp/js/script.min.js"></script>
+</body>

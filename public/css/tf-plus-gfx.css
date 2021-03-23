@@ -1,0 +1,88 @@
+:root {
+    --rgl-orange: #F0984d;
+    --rgl-logo: url("/images/rglgg_logo.png");
+    --rgl-logo-gif: url("/images/RGL_Logo_NoText_Animated.gif");
+    --grey: #422222;
+}
+
+body {
+    background: rgba(0,0,0,0);
+    color: black;
+}
+.gfx-wrap {
+    height: 1080px;
+    width: 1920px;
+    box-shadow : 5px 8px 0 5px red;
+    resize: both;
+    overflow: hidden!important;
+}
+
+
+
+@font-face {
+    font-family: "Mukta Bold";
+    src: url("/css/fonts/Mukta-Bold.ttf")
+}
+@font-face {
+    font-family: "Mukta Medium";
+    src: url("/css/fonts/Mukta-Medium.ttf")
+}
+@font-face {
+    font-family: "Mukta Regular";
+    src: url("/css/fonts/Mukta-Regular.ttf")
+}
+
+@font-face {
+    font-family: "Splash Title";
+    src: url("/css/fonts/futura/FuturaPTBoldOblique.ttf")
+}
+.s-t-w{
+    position: absolute;
+    text-align: center;
+    left: 300px;
+    bottom: 120px;
+}
+
+.s-s-w {
+    position: absolute;
+    text-align: center;
+    left: 210px;
+    bottom: 54px;
+    color: white;
+    width: 1070px;
+}
+.s-s-t{
+    height: 50px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+}
+
+.s-t {
+    width: 1150px;
+    height: 100px;
+    font-family: "Splash Title", sans-serif;
+    background: #FFFFFF;
+    background: -webkit-linear-gradient(to bottom, #FFFFFF 40%, #E6E6E6 100%);
+    background: -moz-linear-gradient(to bottom, #FFFFFF 40%, #E6E6E6 100%);
+    background: linear-gradient(to bottom, #FFFFFF 40%, #E6E6E6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+}
+
+.s-lb {
+    position:absolute;
+    bottom: 30px;
+    left:100px;
+    width: 800px;
+    font-size: 35px;
+}
+.bg-rgl {
+    background-color: var(--rgl-orange);
+}

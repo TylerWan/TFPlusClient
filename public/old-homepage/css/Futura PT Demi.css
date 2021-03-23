@@ -1,0 +1,7 @@
+@font-face {
+	font-family: 'Futura PT Demi';
+	src: url(../../assets/fonts/FuturaPT-Demi.woff2) format('woff2'),
+	url(../../assets/fonts/FuturaPT-Demi.woff) format('woff');
+	font-weight: 500;
+	font-style: normal;
+}
